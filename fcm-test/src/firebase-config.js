@@ -8,13 +8,13 @@ import { getMessaging } from "firebase/messaging";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID,
-  measurementId: import.meta.env.VITE_MEASUREMENT_ID,
+  apiKey: "AIzaSyBQ6FVR2ClayEpDjoPR7IbwRI0v-yL32uo",
+  authDomain: "soomin-dea03.firebaseapp.com",
+  projectId: "soomin-dea03",
+  storageBucket: "soomin-dea03.firebasestorage.app",
+  messagingSenderId: "734841305174",
+  appId: "1:734841305174:web:46a9328b9bbae6265423f7",
+  measurementId: "G-B0493L6PWE",
 };
 // FIreBase 초기화화
 const app = initializeApp(firebaseConfig);
